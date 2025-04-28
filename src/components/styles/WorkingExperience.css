@@ -1,0 +1,71 @@
+/* General container styling */
+.working-experience {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 600px;  /* Limit the width to prevent overflow */
+    box-sizing: border-box;
+  }
+  
+  /* Form styling */
+  .working-experience form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Input and textarea styling */
+  .working-experience input,
+  .working-experience textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding and border are included */
+  }
+  
+  /* Optional: Button styling */
+  .working-experience button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ca81ec;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .working-experience button:hover {
+    background-color: #a52188;
+  }
+  
+  /* List of experience items */
+  .experience-item {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .experience-item p {
+    margin: 5px 0;
+  }
+  
+  /* Delete button styling */
+  .delete-btn {
+    margin-top: 10px;
+    padding: 6px 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  

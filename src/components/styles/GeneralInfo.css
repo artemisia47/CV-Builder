@@ -1,0 +1,68 @@
+/* General container styling */
+.general-info {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 600px;  /* Limit the width to prevent overflow */
+  box-sizing: border-box;
+}
+
+/* Form styling */
+.general-info form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Ensure the inputs take up full width */
+.general-info input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Optional: Button styling */
+.general-info button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.general-info button:hover {
+  background-color: #45a049;
+}
+
+/* Style for the displayed info after submission */
+.general-info-item {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.general-info-item p {
+  margin: 5px 0;
+}
+
+/* Button styling for edit */
+.edit-btn {
+  padding: 6px 12px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: #1976D2;
+}

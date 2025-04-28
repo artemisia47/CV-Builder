@@ -1,0 +1,72 @@
+/* General styling for the education form container */
+.education {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 600px;  /* Limit the width to avoid overflowing */
+    box-sizing: border-box; /* Includes padding and border in the width calculation */
+  }
+  
+  /* Form elements styling */
+  .education form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Ensure input fields take up full available width */
+  .education input, 
+  .education textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding is included in width */
+  }
+  
+  /* Optional: Styling for buttons */
+  .education button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ca81ec;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .education button:hover {
+    background-color: #a52188;
+  }
+  
+  /* Styling for the list of education items */
+  .education-item {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .education-item p {
+    margin: 5px 0;
+  }
+  
+  /* Delete button styling */
+  .delete-btn {
+    margin-top: 10px;
+    padding: 6px 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  
